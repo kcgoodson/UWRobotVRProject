@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour {
 
 	public Sprite[] faces;
 	List<Material> paintSwatches;
+	Sprite[] spriteSheet;
 	public Image face;
 	public GameObject partSpawner;
 	public GameObject basePart;
@@ -14,11 +15,11 @@ public class UIManager : MonoBehaviour {
 
 	void Start() {
 		paintSwatches = new List<Material> ();
-		Object[] temp = Resources.LoadAll ("Parts", typeof(Sprite));
-		faces = new Sprite[temp.Length];
+		faces = Resources.LoadAll<Sprite>("RobotParts");
+		/*faces = new Sprite[temp.Length];
 		for (int i = 0; i < temp.Length; i++) {
 			faces [i] = temp [i] as Sprite;
-		}
+		}*/
 		Change (0);
 	}
 
@@ -34,8 +35,6 @@ public class UIManager : MonoBehaviour {
 
 	public void Spawn() {
 		Material facePaint = MixPaint(face.sprite.texture);
-
-		facePaint.mainTexture = face.sprite.texture;
 		GameObject g = Instantiate (basePart, partSpawner.transform.position, partSpawner.transform.rotation);
 		g.GetComponent<MeshRenderer> ().material = facePaint;
 	}
