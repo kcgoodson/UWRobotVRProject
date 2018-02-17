@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 6-surface-source-keyera-beige-ceramic-tile-traquita-beige-ceramic-tile-12x12-texas-beige-ceramic-tile-toscana-beige-ceramic-tile-trinity-beige-ceramic-tile-tiolo-beige-ceramic-tile-surface-sourc
+  m_Name: 6surface
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
