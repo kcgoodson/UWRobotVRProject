@@ -1,0 +1,25 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Classroom
+# Changes to be committed:
+#	new file:   VR_Robot_Project/Assembly-CSharp-firstpass.csproj
+#	new file:   VR_Robot_Project/Assets/BuilderPrefab.meta
+#	new file:   VR_Robot_Project/Assets/BuilderPrefab/BasicSetup.prefab
+#	new file:   VR_Robot_Project/Assets/BuilderPrefab/BasicSetup.prefab.meta
+#	new file:   VR_Robot_Project/Assets/ClassRoom Stuff.meta
+#
+# Changes not staged for commit:
+#	modified:   VR_Robot_Project/VR_Robot_Project.userprefs
+#
+# Untracked files:
+#	VR_Robot_Project/Assets/ClassRoom Stuff/
+#	VR_Robot_Project/Assets/Classroom.unity
+#	VR_Robot_Project/Assets/Classroom.unity.meta
+#	VR_Robot_Project/Assets/Resources/3DParts.meta
+#	VR_Robot_Project/Assets/Standard Assets/Effects/ImageEffects.meta
+#	VR_Robot_Project/Assets/Standard Assets/Effects/ImageEffects/
+#	VR_Robot_Project/Assets/drg classroom.unity
+#	VR_Robot_Project/Assets/drg classroom.unity.meta
+#
+
