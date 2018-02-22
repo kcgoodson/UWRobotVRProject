@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/StartingAssets/TestScene.unity
     guid: 83c8a992badbbe7408fecc919a6a9ab5
-  - enabled: 1
-    path: Assets/Game3/Framer/Piecewise.unity
+  - enabled: 0
+    path: Assets/RobotScene/Framer/Piecewise.unity
     guid: f3762814e5f19294c815985d2d9a5121
+  - enabled: 1
+    path: Assets/drg classroom.unity
+    guid: 2a19b767542fbbc4abf0218580d5997e
