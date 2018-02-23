@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\PartCollection.cs" />
+     <Compile Include="Assets\PartCreator.cs" />
+     <Compile Include="Assets\PartTemplateBehavior.cs" />
+     <Compile Include="Assets\RobotControl.cs" />
      <Compile Include="Assets\RobotScene\All\DemoManager.cs" />
      <Compile Include="Assets\RobotScene\Framer\FrameBehavior.cs" />
      <Compile Include="Assets\RobotScene\PlatformerControls.cs" />
@@ -160,6 +165,7 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\UIHider.cs" />
      <Compile Include="Assets\UIManager.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
