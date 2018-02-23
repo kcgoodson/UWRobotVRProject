@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - RobotPart
+  - PartOfRobot
+  - FrameBall
   layers:
   - Default
   - TransparentFX

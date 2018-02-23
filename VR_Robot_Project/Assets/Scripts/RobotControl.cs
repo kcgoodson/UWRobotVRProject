@@ -32,11 +32,11 @@ public class RobotControl : MonoBehaviour {
 
 		direction = 0;
 		if (Input.GetButton (keys [1])) {
-			direction = 1;
-		} else if (Input.GetButton (keys [3])) {
 			direction = -1;
+		} else if (Input.GetButton (keys [3])) {
+			direction = 1;
 		}
-
+			
 		myBody.angularVelocity = rotateSpeed * direction * transform.up;
 
 		if(Input.GetButtonDown(keys[4])) {

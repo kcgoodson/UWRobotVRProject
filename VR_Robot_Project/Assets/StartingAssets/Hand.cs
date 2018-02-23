@@ -37,14 +37,19 @@ public class Hand : MonoBehaviour {
 				Collider[] cols = Physics.OverlapSphere (transform.position, 0.1f);
 				FrameBehavior f = FindObjectOfType<FrameBehavior>();
 				foreach (Collider c in cols) {
-					if (heldObject == null && c.GetComponent<HeldObject>() && c.GetComponent<HeldObject>().parent == null && !f.hasPart(c.gameObject)) {
+					if (heldObject == null && c.GetComponent<HeldObject> () && c.GetComponent<HeldObject> ().parent == null && !f.hasPart (c.gameObject)) {
 						heldObject = c.gameObject;
 						heldObject.transform.parent = transform;
 						heldObject.transform.localPosition = Vector3.zero;
 						heldObject.transform.localRotation = Quaternion.identity;
 						heldObject.GetComponent<Rigidbody> ().isKinematic = true;
 						heldObject.GetComponent<HeldObject> ().parent = controller;
+						//Feb 22.5
+					} else if (heldObject == null && c.gameObject.tag == "PartOfRobot") {
+						GameObject.FindObjectOfType<FrameBehavior> ().Delete (c.gameObject);
+						return;
 					}
+					//End Feb22.5
 				}
 
 			}

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour {
 
 	public Sprite[] faces;
-	List<Material> paintSwatches;
+	//List<Material> paintSwatches;
 	Sprite[] spriteSheet;
 	public Image face;
 	public GameObject partSpawner;
@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour {
 	int index = 0;
 
 	void Start() {
-		paintSwatches = new List<Material> ();
+		//paintSwatches = new List<Material> ();
 		faces = Resources.LoadAll<Sprite>("RobotParts");
 		/*faces = new Sprite[temp.Length];
 		for (int i = 0; i < temp.Length; i++) {

@@ -51,15 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewBehaviourScript.cs" />
-     <Compile Include="Assets\PartCollection.cs" />
-     <Compile Include="Assets\PartCreator.cs" />
-     <Compile Include="Assets\PartTemplateBehavior.cs" />
-     <Compile Include="Assets\RobotControl.cs" />
+     <Compile Include="Assets\CameraSwapControls.cs" />
+     <Compile Include="Assets\RobotCamera.cs" />
      <Compile Include="Assets\RobotScene\All\DemoManager.cs" />
      <Compile Include="Assets\RobotScene\Framer\FrameBehavior.cs" />
      <Compile Include="Assets\RobotScene\PlatformerControls.cs" />
-     <Compile Include="Assets\ShipControl.cs" />
+     <Compile Include="Assets\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\PartCollection.cs" />
+     <Compile Include="Assets\Scripts\PartCreator.cs" />
+     <Compile Include="Assets\Scripts\PartTemplateBehavior.cs" />
+     <Compile Include="Assets\Scripts\RobotControl.cs" />
+     <Compile Include="Assets\Scripts\ShipControl.cs" />
+     <Compile Include="Assets\Scripts\UIHider.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\StartingAssets\Controller.cs" />
      <Compile Include="Assets\StartingAssets\Hand.cs" />
      <Compile Include="Assets\StartingAssets\HeldObject.cs" />
@@ -165,8 +169,6 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-     <Compile Include="Assets\UIHider.cs" />
-     <Compile Include="Assets\UIManager.cs" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
