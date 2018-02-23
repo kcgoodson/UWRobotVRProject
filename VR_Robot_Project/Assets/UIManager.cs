@@ -33,7 +33,9 @@ public class UIManager : MonoBehaviour {
 		face.sprite = faces[index];
 	}
 
-	public void Spawn() {
+
+
+	/*public void Spawn() {
 		Material facePaint = MixPaint(face.sprite.texture);
 		GameObject g = Instantiate (basePart, partSpawner.transform.position, partSpawner.transform.rotation);
 		g.GetComponent<MeshRenderer> ().material = facePaint;
@@ -49,5 +51,5 @@ public class UIManager : MonoBehaviour {
 		facePaint.mainTexture = t;
 		paintSwatches.Add (facePaint);
 		return facePaint;
-	}
+	}*/
 }
