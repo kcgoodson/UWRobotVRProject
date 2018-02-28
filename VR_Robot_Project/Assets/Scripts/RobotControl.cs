@@ -27,7 +27,8 @@ public class RobotControl : MonoBehaviour {
 			direction = -1;
 		}
 		if (direction != 0) {
-			myBody.velocity = transform.forward * speed * direction;
+			//myBody.velocity = transform.forward * speed * direction;
+			myBody.AddForce(transform.forward*speed*direction);
 		}
 
 		direction = 0;
