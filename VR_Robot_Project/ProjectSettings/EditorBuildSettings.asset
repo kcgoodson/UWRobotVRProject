@@ -15,5 +15,8 @@ EditorBuildSettings:
     path: Assets/drg classroom.unity
     guid: 2a19b767542fbbc4abf0218580d5997e
   - enabled: 1
-    path: Assets/doppleclassroom.unity
+    path: Assets/Yi/Environement_Island_Yi.unity
+    guid: 06279eac6c0b14ce1b255fbc1bab7677
+  - enabled: 0
+    path: Assets/island.unity
     guid: 2dbcc7a699f42ad47b7ead83c65568fa
