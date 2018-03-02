@@ -1,32 +1,24 @@
 fileFormatVersion: 2
-guid: bb61ab80852fae34c93fbaa6c19998ba
-timeCreated: 1517385056
+guid: 17cdacbc9560e7a418a278b4082da65e
+timeCreated: 1520026870
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: object_1
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: face01
-    9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Robot_face
-    second: {fileID: 2100000, guid: 8e96bfc47e4643f4fbd7bae882e1dd72, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Side
-    second: {fileID: 2100000, guid: 2c55b07c4902c444e80a0b85d398dfc5, type: 2}
+    400002: object_1
+    2100000: object_1Mat
+    2300000: object_1
+    3300000: object_1
+    4300000: object_1
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -64,6 +56,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -93,7 +87,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
