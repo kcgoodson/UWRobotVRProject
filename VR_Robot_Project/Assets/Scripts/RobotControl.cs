@@ -11,7 +11,6 @@ public class RobotControl : MonoBehaviour {
 
 	void Start() {
 		myBody = GetComponent<Rigidbody> ();
-
 		keys = new string[5];
 		for (int i = 0; i < keys.Length; i++) {
 			keys [i] = "player2_" + i;
@@ -29,7 +28,8 @@ public class RobotControl : MonoBehaviour {
 			direction = -1;
 		}
 		if (direction != 0) {
-			myBody.velocity = transform.forward * speed * direction;
+			Vector3 currentVelocity = myBody.velocity;
+			myBody.velocity = (transform.forward * speed * direction) + new Vector3(0, currentVelocity.y,0);
 			//myBody.AddForce(transform.forward*speed*direction);
 		}
 

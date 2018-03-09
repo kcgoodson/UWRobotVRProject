@@ -23,7 +23,9 @@ public class PartTemplateBehavior : MonoBehaviour {
 		} else if (index < 0) {
 			index = faces.Length - 1;
 		}
-		transform.GetChild(0).gameObject.GetComponent<Image>().sprite = faces[index];
+		if (faces.Length > 0) {
+			transform.GetChild (0).gameObject.GetComponent<Image> ().sprite = faces [index];
+		}
 	}
 
 	public void Spawn() {

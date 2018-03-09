@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 23048735734931832}
   - component: {fileID: 54124369844952254}
   - component: {fileID: 65144166030269632}
+  - component: {fileID: 114587804155138278}
   m_Layer: 0
   m_Name: Model1
   m_TagString: RobotPart
@@ -183,3 +184,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 0.71, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114587804155138278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872295974260726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7981417cec46dd346b08a6db1fda213d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 0}
