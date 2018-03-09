@@ -49,11 +49,18 @@ public class Hand : MonoBehaviour {
 						GameObject.FindObjectOfType<FrameBehavior> ().Delete (c.gameObject);
 						return;
 					}
-					//End Feb22.5
 				}
 
 			}
 		}
 		
+	}
+
+	public void ForceNullHeldObject() {
+		heldObject = null;
+	}
+
+	public GameObject HandHeldObject() {
+		return heldObject;
 	}
 }

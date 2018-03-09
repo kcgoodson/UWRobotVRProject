@@ -35,6 +35,14 @@ public class FrameBehavior : MonoBehaviour {
 
 		GameObject other = collision.gameObject;
 		if (other.tag == "RobotPart" && !hasPart (other)) {
+
+			Hand[] hands = GameObject.FindObjectsOfType<Hand> ();
+			for (int i = 0; i < hands.Length; i++) {
+				if (hands [i].HandHeldObject () == other) {
+					hands [i].ForceNullHeldObject ();
+				}
+			}
+				
 			other.transform.position = myFramePiece.transform.position;
 			other.transform.rotation = myFramePiece.transform.rotation;
 			other.transform.localScale = myFramePiece.transform.lossyScale;
