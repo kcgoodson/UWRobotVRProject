@@ -28,9 +28,10 @@ public class RobotControl : MonoBehaviour {
 			direction = -1;
 		}
 		if (direction != 0) {
-			Vector3 currentVelocity = myBody.velocity;
-			myBody.velocity = (transform.forward * speed * direction) + new Vector3(0, currentVelocity.y,0);
-			//myBody.AddForce(transform.forward*speed*direction);
+			Vector3 newDirection = (transform.forward * speed * direction);
+			newDirection.y = myBody.velocity.y;
+			myBody.velocity = newDirection;
+			//myBody.AddForce(transform.forward*speed*direction*myBody.mass);
 		}
 
 		//Controls Rotation

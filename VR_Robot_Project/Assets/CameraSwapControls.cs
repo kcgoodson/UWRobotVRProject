@@ -10,9 +10,9 @@ public class CameraSwapControls : MonoBehaviour {
 	public void Switch() {
 		roboCam.SetActive (!roboCam.activeSelf);
 		if (roboCam.activeSelf) {
-			GetComponentInChildren<Text> ().text = "Human View";
-		} else {
 			GetComponentInChildren<Text> ().text = "Robot View";
+		} else {
+			GetComponentInChildren<Text> ().text = "Human View";
 		}
 	}
 }
