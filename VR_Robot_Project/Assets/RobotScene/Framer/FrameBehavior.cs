@@ -4,23 +4,16 @@ using UnityEngine;
 
 public class FrameBehavior : MonoBehaviour {
 
-	//GameObject[] defaultParts;
-	//GameObject[] parts;
 	public List<GameObject> parts;
 	public GameObject frameBall;
 
-	// Use this for initialization
+	//Creates the empty list to keep track of the robot's current parts
 	void Start () {
 		parts = new List<GameObject> ();
-		//defaultParts = new GameObject[transform.childCount];
-		/*for (int i = 0; i < parts.Length; i++) {
-			parts[i] = gameObject.transform.GetChild(i).gameObject;
-			//defaultParts[i] = gameObject.transform.GetChild(i).gameObject;
-		}
-		///*/
 	}
 
-	/*void Update() {
+	// Press Y to Reset Frame
+	void Update() {
 		if (Input.GetKey (KeyCode.Y)) {
 			for (int i = 0; i < parts.Count; i+=0) {
 				Delete(parts [i]);
@@ -31,29 +24,17 @@ public class FrameBehavior : MonoBehaviour {
 	//*/
 
 	void OnCollisionEnter(Collision collision) {
-		
+
+		//Gets the Child Object that was hit
 		GameObject myFramePiece = (collision.contacts [0].thisCollider.gameObject);
 
-		/*This prevents replacement of placed part
-		bool endEarly = true;
-		foreach (GameObject g in defaultParts) {
-			if (g == myFramePiece) {
-				endEarly = false;
-				break;
-			}
-		}
-		if (endEarly) {
-			return;
-		}
-		//This prevents replacement of placed part*/
-
+		//Ends the program if a non-FrameBall is hit
 		if (myFramePiece.tag != "FrameBall") {
 			return;
 		}
 
 		GameObject other = collision.gameObject;
 		if (other.tag == "RobotPart" && !hasPart(other)) {
-			//int n = IndexOf (myFramePiece);
 			other.transform.position = myFramePiece.transform.position;
 			other.transform.rotation = myFramePiece.transform.rotation;
 			other.transform.localScale = myFramePiece.transform.lossyScale;
@@ -64,10 +45,10 @@ public class FrameBehavior : MonoBehaviour {
 			Destroy (other.GetComponent<Rigidbody> ());
 			Destroy(myFramePiece);
 			parts.Add (other);
-			//parts [n] = other;
 		}
 	}
 
+	//Turns a Robot Part back into a Frame Ball
 	public void Delete(GameObject g) {
 		int index = IndexOf (g);
 		if (index != -1) {
