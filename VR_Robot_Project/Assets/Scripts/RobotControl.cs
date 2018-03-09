@@ -42,7 +42,7 @@ public class RobotControl : MonoBehaviour {
 			direction = 1;
 		}
 		myBody.angularVelocity = rotateSpeed * direction * transform.up;
-
+		transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
 		//Plays AudioClip
 		if(Input.GetButtonDown(keys[4])) {
 			GetComponent<AudioSource> ().Play ();

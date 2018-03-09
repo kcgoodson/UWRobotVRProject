@@ -34,7 +34,7 @@ public class FrameBehavior : MonoBehaviour {
 		}
 
 		GameObject other = collision.gameObject;
-		if (other.tag == "RobotPart" && !hasPart(other)) {
+		if (other.tag == "RobotPart" && !hasPart (other)) {
 			other.transform.position = myFramePiece.transform.position;
 			other.transform.rotation = myFramePiece.transform.rotation;
 			other.transform.localScale = myFramePiece.transform.lossyScale;
@@ -43,8 +43,12 @@ public class FrameBehavior : MonoBehaviour {
 			other.tag = "PartOfRobot";
 			Destroy (other.GetComponent<HeldObject> ());
 			Destroy (other.GetComponent<Rigidbody> ());
-			Destroy(myFramePiece);
+			Destroy (myFramePiece);
 			parts.Add (other);
+		} else if (other.tag == "LoneBall") {
+			Destroy (other.GetComponent<HeldObject> ());
+			Destroy (other.GetComponent<Rigidbody> ());
+			other.transform.SetParent (gameObject.transform);
 		}
 	}
 

@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\ShipControl.cs" />
      <Compile Include="Assets\Scripts\UIHider.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
+     <Compile Include="Assets\SlideController.cs" />
      <Compile Include="Assets\SpawnPrefabButton.cs" />
      <Compile Include="Assets\StartingAssets\Controller.cs" />
      <Compile Include="Assets\StartingAssets\Hand.cs" />
