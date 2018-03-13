@@ -22,5 +22,6 @@ public class UIHider : MonoBehaviour {
 		foreach (Text t in texts) {
 			t.enabled = hide;
 		}
+		uiToHide.GetComponentInChildren<Slider> ().enabled = hide;
 	}
 }

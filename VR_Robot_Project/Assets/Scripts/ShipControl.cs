@@ -17,7 +17,7 @@ public class ShipControl : MonoBehaviour {
 		}
 	}
 
-	// Update is called once per frame
+	// Update is called once per frame*/
 	void Update () {
 		Vector3 sum = new Vector3 ();
 		for (int i = 0; i < keys.Length; i++) {
@@ -28,4 +28,5 @@ public class ShipControl : MonoBehaviour {
 		sum = sum.normalized;
 		transform.Translate (sum * speed * Time.deltaTime);
 	}
+	//*/
 }

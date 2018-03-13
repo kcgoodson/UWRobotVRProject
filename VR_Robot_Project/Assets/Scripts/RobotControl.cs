@@ -13,7 +13,7 @@ public class RobotControl : MonoBehaviour {
 		myBody = GetComponent<Rigidbody> ();
 		keys = new string[5];
 		for (int i = 0; i < keys.Length; i++) {
-			keys [i] = "player2_" + i;
+			keys [i] = "player1_" + i;
 		}
 	}
 	

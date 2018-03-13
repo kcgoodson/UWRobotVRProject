@@ -63,4 +63,8 @@ public class Hand : MonoBehaviour {
 	public GameObject HandHeldObject() {
 		return heldObject;
 	}
+
+	public void ShipMovement() {
+		
+	}
 }
