@@ -22,31 +22,43 @@ public class ShipControl : MonoBehaviour {
 	void Update () {
 		Vector3 sum = new Vector3 ();
 
-		float sumVertical = 0;
+		float sumVertical = 0f;
 
 		Vector2 leftV = new Vector2();
-		if (left != null && left.gameObject.activeSelf && left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
-			leftV = left.controller.GetAxis ();
+		if (left != null && left.gameObject.activeSelf) {
+			if (left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
+				leftV = left.controller.GetAxis ();
+			}
+			if (left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
+				sumVertical += 0.5f;
+			}
 		}
 
 		Vector2 rightV = new Vector2();
-		if (right != null && right.gameObject.activeSelf && right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
-			rightV = right.controller.GetAxis ();
+		if (right != null && right.gameObject.activeSelf) {
+			if (right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
+				rightV = right.controller.GetAxis ();
+			}
+			if (right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
+				sumVertical -= 0.5f;
+			}
 		}
 
 		float sumX = leftV.x + rightV.x;
 		float sumY = leftV.y + rightV.y;
 
 
-		Vector3 myForward = head.transform.forward.normalized;
-		Vector3 myRight = head.transform.right.normalized;
+		//Vector3 myForward = head.transform.forward.normalized;
+		//Vector3 myRight = head.transform.right.normalized;
 
-		//sum += new Vector3 (leftV.x + rightV.x, 0, leftV.y + rightV.y);
-		sum = myForward * sumX + myRight * sumY;
-		sum = new Vector3 (sum.x, sumVertical, sum.z);
+		sum = head.transform.forward.normalized;
+		sum = new Vector3 (sum.x * sumX, sumVertical, sum.z * sumY);
 
-		//sum = sum.normalized;
-		//bugger.text = sum.ToString();
+
+		//sum = myForward * sumX + myRight * sumY;
+		//sum = new Vector3 (sum.x, sumVertical, -sum.z);
+
+		//bugger.text = "SUMX: " + sumX + "\nSUMY: " + sumY;
 		transform.Translate (sum * speed * Time.deltaTime);
 	}
 	//*/
