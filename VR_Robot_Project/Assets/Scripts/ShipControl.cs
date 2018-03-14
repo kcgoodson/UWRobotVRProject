@@ -48,8 +48,11 @@ public class ShipControl : MonoBehaviour {
 		float sumY = leftV.y + rightV.y;
 
 
+		Vector3 myForward = head.transform.forward * sumX;
+		Vector3 myRight = head.transform.right * sumY;
 
 		sum = myForward + myRight;
+		sum = new Vector3 (sum.x, sumVertical, sum.z);
 
 		//bugger.text = "SUMX: " + sumX + "\nSUMY: " + sumY;
 		transform.Translate (sum * speed * Time.deltaTime);
