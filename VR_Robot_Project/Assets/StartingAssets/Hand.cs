@@ -64,7 +64,7 @@ public class Hand : MonoBehaviour {
 		return heldObject;
 	}
 
-	public void ShipMovement() {
-		
+	public Controller myHandController() {
+		return controller;
 	}
 }

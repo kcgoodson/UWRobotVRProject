@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ShipControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SteamVR\Scripts\SteamVR_Controller.cs">
     <Files>
-      <File FileName="Assets\RobotScene\Framer\FrameBehavior.cs" Line="40" Column="31" />
-      <File FileName="Assets\StartingAssets\Hand.cs" Line="52" Column="6" />
-      <File FileName="Assets\StartingAssets\HeldObject.cs" Line="5" Column="38" />
-      <File FileName="Assets\StartingAssets\Controller.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShipControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\StartingAssets\HeldObject.cs" Line="12" Column="1" />
+      <File FileName="Assets\StartingAssets\Controller.cs" Line="6" Column="2" />
+      <File FileName="Assets\Scripts\ShipControl.cs" Line="43" Column="1" />
+      <File FileName="Assets\Scripts\RobotControl.cs" Line="16" Column="23" />
+      <File FileName="Assets\StartingAssets\Hand.cs" Line="68" Column="21" />
+      <File FileName="Assets\SteamVR\Scripts\SteamVR_Controller.cs" Line="151" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
