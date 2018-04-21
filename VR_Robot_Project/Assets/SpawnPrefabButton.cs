@@ -29,6 +29,7 @@ public class SpawnPrefabButton : MonoBehaviour {
 	}
 
 	public void Spawn() {
-		Instantiate (faces [index], GameObject.FindObjectOfType<PartCreator> ().transform.position, Quaternion.identity);
+		GameObject g = Instantiate (faces [index], GameObject.FindObjectOfType<PartCreator> ().transform.position, Quaternion.identity);
+		g.transform.localScale *= 0.35f;
 	}
 }

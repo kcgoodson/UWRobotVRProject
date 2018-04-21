@@ -15,7 +15,7 @@ public class PartCreator : MonoBehaviour {
 		Material facePaint = MixPaint(t);
 		GameObject g = Instantiate (basePart, transform.position, transform.rotation);
 		g.GetComponent<MeshRenderer> ().material = facePaint;
-		g.transform.localScale *= 0.35f;
+		g.transform.localScale *= 0.15f;
 	}
 
 	Material MixPaint(Texture t) {
