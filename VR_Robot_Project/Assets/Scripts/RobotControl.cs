@@ -23,9 +23,9 @@ public class RobotControl : MonoBehaviour {
 		//Controls Forward and Backward Movement
 		int direction = 0;
 		if (Input.GetButton (keys [0])) {
-			direction = 1;
-		} else if (Input.GetButton (keys [2])) {
 			direction = -1;
+		} else if (Input.GetButton (keys [2])) {
+			direction = 1;
 		}
 		if (direction != 0) {
 			Vector3 newDirection = (transform.forward * speed * direction);
@@ -37,9 +37,9 @@ public class RobotControl : MonoBehaviour {
 		//Controls Rotation
 		direction = 0;
 		if (Input.GetButton (keys [1])) {
-			direction = -1;
-		} else if (Input.GetButton (keys [3])) {
 			direction = 1;
+		} else if (Input.GetButton (keys [3])) {
+			direction = -1;
 		}
 		myBody.angularVelocity = rotateSpeed * direction * transform.up;
 		transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
