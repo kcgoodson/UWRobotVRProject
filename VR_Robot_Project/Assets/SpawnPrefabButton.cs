@@ -7,6 +7,7 @@ public class SpawnPrefabButton : MonoBehaviour {
 
 	public string folderName = "3DPrefabs";
 	public GameObject[] faces;
+	public Transform conveyorStart;
 	int index = 0;
 
 	// Use this for initialization
@@ -29,7 +30,8 @@ public class SpawnPrefabButton : MonoBehaviour {
 	}
 
 	public void Spawn() {
-		GameObject g = Instantiate (faces [index], GameObject.FindObjectOfType<PartCreator> ().transform.position, Quaternion.identity);
+		//GameObject g = Instantiate (faces [index], GameObject.FindObjectOfType<PartCreator> ().transform.position, Quaternion.identity);
+		GameObject g = Instantiate (faces [index], conveyorStart.position, conveyorStart.rotation);
 		g.transform.localScale *= 0.35f;
 	}
 }
