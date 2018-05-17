@@ -8,7 +8,9 @@ public class SpawnPrefabButton : MonoBehaviour {
 	public string folderName = "3DPrefabs";
 	public GameObject[] faces;
 	public Transform conveyorStart;
+
 	int index = 0;
+	public Sprite[] temporaryImage;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +27,8 @@ public class SpawnPrefabButton : MonoBehaviour {
 			index = faces.Length - 1;
 		}
 		if (faces.Length > 0) {
-			transform.GetChild (0).gameObject.GetComponentInChildren<Text>().text = "Proto-Model " + (index+1);
+			//transform.GetChild (0).gameObject.GetComponentInChildren<Text>().text = "Proto-Model " + (index+1);
+			transform.GetChild (0).gameObject.GetComponent<Image>().sprite = temporaryImage [index];
 		}
 	}
 

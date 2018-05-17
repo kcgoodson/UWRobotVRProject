@@ -24,7 +24,7 @@ public class PartTemplateBehavior : MonoBehaviour {
 			index = faces.Length - 1;
 		}
 		if (faces.Length > 0) {
-			transform.GetChild (0).gameObject.GetComponent<Image> ().sprite = faces [index];
+			transform.GetChild (0).gameObject.GetComponent<Image>().sprite = faces [index];
 		}
 	}
 
