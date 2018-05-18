@@ -59,6 +59,7 @@
      <Compile Include="Assets\RobotScene\Framer\FrameBehavior.cs" />
      <Compile Include="Assets\RobotScene\PlatformerControls.cs" />
      <Compile Include="Assets\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\ObjectDestruction.cs" />
      <Compile Include="Assets\Scripts\PartCollection.cs" />
      <Compile Include="Assets\Scripts\PartCreator.cs" />
      <Compile Include="Assets\Scripts\PartTemplateBehavior.cs" />
