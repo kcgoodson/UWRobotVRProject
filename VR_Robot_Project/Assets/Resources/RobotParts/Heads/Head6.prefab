@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 54221780967677166}
   - component: {fileID: 65187977808956366}
   - component: {fileID: 114186516129929550}
+  - component: {fileID: 114203521543760366}
   m_Layer: 0
   m_Name: Head6
   m_TagString: RobotPart
@@ -369,3 +370,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 0}
+--- !u!114 &114203521543760366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252301854732310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778f0e86b0dd947ecbbb5bdeb1128a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMaterials:
+  - {fileID: 2100000, guid: a2057b851e33448d3a7d3cc8e3de85b6, type: 2}
+  - {fileID: 2100000, guid: dd5dc1c8134de40ddbf9db616bb128ee, type: 2}
+  - {fileID: 2100000, guid: ef9f25b264d93466b81e96a15f0bdba5, type: 2}
+  - {fileID: 2100000, guid: 0b7b5c4f0702948be8752a9c66059e58, type: 2}
+  - {fileID: 2100000, guid: db7579c50fad34ee894e84c96be7a04c, type: 2}

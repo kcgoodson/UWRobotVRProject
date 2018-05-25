@@ -3218,6 +3218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Legs
   faces: []
+  conveyorStart: {fileID: 0}
+  temporaryImage: []
 --- !u!114 &114228367865381348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4241,6 +4243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: 3DPrefabs
   faces: []
+  conveyorStart: {fileID: 0}
+  temporaryImage: []
 --- !u!114 &114545581829319548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4609,6 +4613,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Bodies
   faces: []
+  conveyorStart: {fileID: 0}
+  temporaryImage: []
 --- !u!114 &114653874992367154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4878,6 +4884,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Arms
   faces: []
+  conveyorStart: {fileID: 0}
+  temporaryImage: []
 --- !u!114 &114696837995636726
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5251,6 +5259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Heads
   faces: []
+  conveyorStart: {fileID: 0}
+  temporaryImage: []
 --- !u!114 &114803023218841218
 MonoBehaviour:
   m_ObjectHideFlags: 1
