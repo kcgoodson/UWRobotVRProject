@@ -55,6 +55,7 @@
      <Compile Include="Assets\ClassRoom Stuff\ConveyorBelt\Scripts\ControlSpeed.cs" />
      <Compile Include="Assets\ClassRoom Stuff\ConveyorBelt\Scripts\ConveyorScript.cs" />
      <Compile Include="Assets\ClassRoom Stuff\ConveyorBelt\Scripts\ObjectKinematicDisplay.cs" />
+     <Compile Include="Assets\ConveyorSpeed.cs" />
      <Compile Include="Assets\ReloadScene.cs" />
      <Compile Include="Assets\Resources\HandAssets\Scripts\HandAnimation.cs" />
      <Compile Include="Assets\RobotCamera.cs" />

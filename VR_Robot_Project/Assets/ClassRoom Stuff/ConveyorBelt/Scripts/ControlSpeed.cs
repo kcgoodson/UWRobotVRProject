@@ -5,13 +5,13 @@ using UnityEngine;
 public class ControlSpeed : MonoBehaviour {
 	ConveyorScript myConveyorScript;
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 		myConveyorScript = GetComponent<ConveyorScript>();
 	}
 
 	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.M))
+	public void Update () {
+		if(Input.GetKeyDown(KeyCode.Space))
 		myConveyorScript.enabled = !myConveyorScript.enabled;
 	}
 }
