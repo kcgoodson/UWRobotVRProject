@@ -16,15 +16,15 @@ public class RobotControl : MonoBehaviour {
 			keys [i] = "player1_" + i;
 		}
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
 		//Controls Forward and Backward Movement
 		int direction = 0;
-		if (Input.GetButton (keys [0])) {
+		if (Input.GetButton (keys [2])) {
 			direction = -1;
-		} else if (Input.GetButton (keys [2])) {
+		} else if (Input.GetButton (keys [0])) {
 			direction = 1;
 		}
 		if (direction != 0) {

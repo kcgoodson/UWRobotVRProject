@@ -18,7 +18,7 @@ public class Hand : MonoBehaviour {
 
 		controller = GetComponent<Controller> ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (heldObject) {
@@ -28,10 +28,11 @@ public class Hand : MonoBehaviour {
 				heldObject.GetComponent<Rigidbody> ().velocity = simulator.velocity;
 				heldObject.GetComponent<HeldObject> ().parent = null;
 				heldObject.transform.parent = null;
+				//heldObject.transform.localPosition = Vector3.zero;
 				heldObject = null;
 
 			}
-			
+
 		} else {
 			if(controller.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger)) {
 				Collider[] cols = Physics.OverlapSphere (transform.position, 0.1f);
@@ -53,7 +54,7 @@ public class Hand : MonoBehaviour {
 
 			}
 		}
-		
+
 	}
 
 	public void ForceNullHeldObject() {
