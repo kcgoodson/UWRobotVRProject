@@ -28,7 +28,6 @@ public class Hand : MonoBehaviour {
 				heldObject.GetComponent<Rigidbody> ().velocity = simulator.velocity;
 				heldObject.GetComponent<HeldObject> ().parent = null;
 				heldObject.transform.parent = null;
-				//heldObject.transform.localPosition = Vector3.zero;
 				heldObject = null;
 
 			}
@@ -43,6 +42,9 @@ public class Hand : MonoBehaviour {
 						heldObject.transform.parent = transform;
 						heldObject.transform.localPosition = Vector3.zero;
 						heldObject.transform.localRotation = Quaternion.identity;
+						//reset object orientation
+						heldObject.transform.Rotate(0, 180, 0);
+
 						heldObject.GetComponent<Rigidbody> ().isKinematic = true;
 						heldObject.GetComponent<HeldObject> ().parent = controller;
 						//Feb 22.5
