@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{85436265-4E32-74DA-436B-5978662152AE}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RobotCamera.cs">
+    <Files>
+      <File FileName="Assets/ClassRoom Stuff/ConveyorBelt/Scripts/ControlSpeed.cs" Line="14" Column="37" />
+      <File FileName="Assets/ConveyorSpeed.cs" Line="1" Column="1" />
+      <File FileName="Assets/CameraSwapControls.cs" Line="1" Column="1" />
+      <File FileName="Assets/RobotCamera.cs" Line="16" Column="1" />
+      <File FileName="Assets/ClassRoom Stuff/ConveyorBelt/Scripts/ConveyorScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/SpawnPrefabButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PartTemplateBehavior.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
