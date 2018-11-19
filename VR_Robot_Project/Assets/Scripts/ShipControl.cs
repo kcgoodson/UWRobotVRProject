@@ -29,9 +29,9 @@ public class ShipControl : MonoBehaviour {
 			if (left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
 				leftV = left.controller.GetAxis ();
 			}
-			if (left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
-				sumVertical += 0.5f;
-			}
+			// if (left.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
+				// sumVertical += 0.5f;
+			// }
 		}
 
 		Vector2 rightV = new Vector2();
@@ -39,9 +39,9 @@ public class ShipControl : MonoBehaviour {
 			if (right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad)) {
 				rightV = right.controller.GetAxis ();
 			}
-			if (right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
-				sumVertical -= 0.5f;
-			}
+			// if (right.controller.GetPress (Valve.VR.EVRButtonId.k_EButton_Grip)) {
+				// sumVertical -= 0.5f;
+			// }
 		}
 
 		float sumX = leftV.x + rightV.x;
