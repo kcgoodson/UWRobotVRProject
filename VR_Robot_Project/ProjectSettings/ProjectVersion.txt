@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-m_EditorVersion: 2017.3.1f1
-=======
-<<<<<<< Updated upstream
-m_EditorVersion: 2017.2.0f3
-=======
-m_EditorVersion: 2017.4.0f1
->>>>>>> Stashed changes
->>>>>>> 3f45b26c8005e1f13b617c0a5df672013e276c8c
+m_EditorVersion: 2018.3.11f1
