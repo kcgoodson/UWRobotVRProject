@@ -65,6 +65,7 @@
     <Compile Include="Assets\ClassRoom Stuff\ConveyorBelt\Scripts\ConveyorScript.cs" />
     <Compile Include="Assets\ClassRoom Stuff\ConveyorBelt\Scripts\ObjectKinematicDisplay.cs" />
     <Compile Include="Assets\ConveyorSpeed.cs" />
+    <Compile Include="Assets\InputFieldScript.cs" />
     <Compile Include="Assets\ReloadScene.cs" />
     <Compile Include="Assets\Resources\HandAssets\Scripts\HandAnimation.cs" />
     <Compile Include="Assets\RobotCamera.cs" />
@@ -568,6 +569,7 @@
     <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\Resources\data.txt" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
     <None Include="Assets\Resources\HandAssets\Models\LICENSE.txt" />
