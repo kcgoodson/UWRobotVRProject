@@ -6,17 +6,34 @@ ModelImporter:
     100000: //RootNode
     100002: node_id4
     100004: root 1
+    100006: node_id5
+    100008: node_id7
     400000: //RootNode
     400002: node_id4
     400004: root 1
+    400006: node_id5
+    400008: node_id7
     2100000: Material_52
     2100002: Material_79
+    2100004: Material_84
+    2100006: Material_53
+    2100008: Material_93
+    2100010: Material_81
+    2100012: Material_55
+    2100014: Material_75
+    2100016: Material_83
     2300000: node_id4
     2300002: root 1
+    2300004: node_id5
+    2300006: node_id7
     3300000: node_id4
     3300002: root 1
+    3300004: node_id5
+    3300006: node_id7
     4300000: node_id4
     4300002: root
+    4300004: node_id5
+    4300006: node_id7
   externalObjects: {}
   materials:
     importMaterials: 1
