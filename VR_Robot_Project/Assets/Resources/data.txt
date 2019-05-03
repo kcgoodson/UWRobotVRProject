@@ -1,1 +1,36 @@
-Operator-Name:32434, Participant-ID:23423
+Operator-Name:sim, Participant-ID:1234
+Button: Hello my name is emar Click: 1
+Button: Its nice to meet you Click: 1
+Button: Can you tell me how stressed do you feel right now Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: Thank you for sharing your stress level Click: 1
+Button: Great, I'm listening Click: 1
+Button: Do you want to tell me more Click: 1
+Button: How did that make you feel Click: 1
+Button: Thank you for sharing your story with me Click: 1
+Button: I really like hearing about how you're doing Click: 1
+Button: It was nice to meet you, bye Click: 1
+Button: Thats great to hear - red Click: 1
+Button: Im sorry to hear that - purple Click: 1
+Button: Thanks for sharing that with me - purple Click: 1
+Button: Thanks for sharing that with me - red Click: 1
+Button: Im sorry to hear that - red Click: 1
+Button: Thats great to hear - purple Click: 1
+Button: I can understand why you're stressed Click: 1
+Button: That sounds stressful Click: 1
+Button: That sounds difficult Click: 1
+Button: yes Click: 1
+Button: I see Click: 1
+Button: Oh Click: 1
+Button: Thats okay, you can always talk to me some other time Click: 1
+Button: Sorry Click: 1
+Button: Could you repeat that Click: 1
+Button: Im sorry I didnt hear that Click: 1
+Session Ended --
+Operator-Name:abc, Participant-ID:123456
+Button: Sorry Click: 1
+Button: Hello my name is emar Click: 1
+Button: Can you tell me how stressed do you feel right now Click: 1
+Button: Thats okay, you can always talk to me some other time Click: 1
+Button: yes Click: 1
+Session Ended --
