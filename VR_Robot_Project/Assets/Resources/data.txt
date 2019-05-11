@@ -1,47 +1,101 @@
-Operator-Name:CS, Participant-ID:1234
-Button: Its nice to meet you Click: 1
-Button: I'd also like to know what is your mood right now Click: 1
-Operator-Name:SB, Participant-ID:4567
 Button: Hello my name is emar Click: 1
 Button: Can you tell me how stressed do you feel right now Click: 1
 Button: I'd also like to know what is your mood right now Click: 1
+Button: How did that make you feel Click: 1
+Button: Do you want to tell me more Click: 1
+Button: Thats great to hear Click: 1
+Button: Thanks for sharing that with me Click: 1
+Button: Im sorry to hear that Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: Do you want to tell me more Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: How did that make you feel Click: 1
+Button: How did that make you feel Click: 1
+Button: That sounds difficult Click: 1
+Button: I can understand why you're stressed Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: How did that make you feel Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds stressful Click: 1
 Button: Great, I'm listening Click: 1
+Button: That sounds difficult Click: 1
+Button: Great, I'm listening Click: 1
+Button: Stress Story Click: 1
+Button: That sounds difficult Click: 1
+Button: How did that make you feel Click: 1
+Button: How did that make you feel Click: 1
+Button: Thank you for sharing your story with me Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds difficult Click: 1
+Button: Its nice to meet you Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
 Button: How did that make you feel Click: 1
 Button: It was nice to meet you, bye Click: 1
-Operator-Name:CS, Participant-ID:123
+Button: Thats great to hear Click: 1
+Button: Thanks for sharing that with me Click: 1
+Button: Im sorry to hear that Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds stressful Click: 1
+Button: I can understand why you're stressed Click: 1
+Button: Thats okay, you can always talk to me some other time Click: 1
+Button: yes Click: 1
+Button: I see Click: 1
+Button: Oh Click: 1
+Button: Sorry Click: 1
+Button: Hello Click: 1
+Button: My name is emar Click: 1
+Button: Hello Click: 1
+Button: My name is emar Click: 1
+Button: I am a social robot Click: 1
+Button: What's your name Click: 1
+Button: What's your name Click: 1
 Button: Its nice to meet you Click: 1
 Button: Can you tell me how stressed do you feel right now Click: 1
-Operator-Name:SB, Participant-ID:456
-Button: Stress Story Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: Thank you for sharing your stress level and mood with me Click: 1
+Button: Thank you for sharing your stress level and mood with me Click: 1
+Button: Thank you for sharing your stress level and mood with me Click: 1
+Button: I also really like to hear stories Click: 1
+Button: Would you tell me about a time when you were stressed? Click: 1
+Button: Great, I'm listening Click: 1
+Button: Great, I'm listening Click: 1
+Button: Would you tell me about a time when you were stressed? Click: 1
+Button: I also really like to hear stories Click: 1
+Button: Hello Click: 1
+Button: My name is emar Click: 1
+Button: I am a social robot Click: 1
+Button: What's your name Click: 1
+Button: Its nice to meet you Click: 1
+Button: Can you tell me how stressed do you feel right now Click: 1
+Button: I'd also like to know what is your mood right now Click: 1
+Button: Thank you for sharing your stress level and mood with me Click: 1
+Button: I also really like to hear stories Click: 1
+Button: Would you tell me about a time when you were stressed? Click: 1
+Button: Great, I'm listening Click: 1
 Button: Do you want to tell me more Click: 1
 Button: How did that make you feel Click: 1
-Button: Its nice to meet you Click: 1
-Button: I'd also like to know what is your mood right now Click: 1
-Button: How did that make you feel Click: 1
-Button: It was nice to meet you, bye Click: 1
-Button: Its nice to meet you Click: 1
-Button: I'd also like to know what is your mood right now Click: 1
-Button: How did that make you feel Click: 1
-Button: It was nice to meet you, bye Click: 1
-Operator-Name:CS, Participant-ID:12334
-Button: Its nice to meet you Click: 1
-Button: I'd also like to know what is your mood right now Click: 1
-Button: Great, I'm listening Click: 1
-Button: How did that make you feel Click: 1
+Button: Thank you for sharing your story with me Click: 1
 Button: I really like hearing about how you're doing Click: 1
 Button: It was nice to meet you, bye Click: 1
-Button: Hello my name is emar Click: 1
 Button: Thats great to hear Click: 1
-Session Ended --
-Operator-Name:CS, Participant-ID:123
-Button: Hello my name is emar Click: 1
-Button: Its nice to meet you Click: 1
-Session Ended --
-Button: Hello my name is emar Click: 1
-Button: Hello my name is emar Click: 1
-Button: Its nice to meet you Click: 1
-Button: Hello my name is emar Click: 1
-Button: Its nice to meet you Click: 1
-Button: Can you tell me how stressed do you feel right now Click: 1
-Button: Thats great to hear Click: 1
-Session Ended --
+Button: Thanks for sharing that with me Click: 1
+Button: Im sorry to hear that Click: 1
+Button: That sounds difficult Click: 1
+Button: That sounds stressful Click: 1
+Button: I can understand why you're stressed Click: 1
+Button: Im sorry I didnt hear that Click: 1
+Button: Could you repeat that Click: 1
+Button: Okay Click: 1
+Button: Okay Click: 1
+Button: Thats okay, you can always talk to me some other time Click: 1
+Button: yes Click: 1
+Button: I see Click: 1
+Button: Oh Click: 1
