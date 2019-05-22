@@ -1,1 +1,13 @@
 
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:12:14 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:12:17 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:13:28 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:13:29 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:13:57 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:22:23 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:22:25 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:23:21 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:23:49 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:29:22 PM
+Operator-Name:, Participant-ID:, Time:5/21/2019 11:40:21 PM
+Session Ended -- Time:5/21/2019 11:40:24 PM

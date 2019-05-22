@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{67EFC7B4-CEAE-7A02-48ED-56342F6692B9}</ProjectGuid>
+    <ProjectGuid>{B3C1F233-366C-56DE-FB53-3AA083554EBC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -84,25 +84,25 @@
     <Compile Include="Assets\VRTK\Source\Editor\VRTK_SupportInfoWindow.cs" />
     <Compile Include="Assets\VRTK\Source\Editor\VRTK_UpdatePrompt.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR.Editor">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMR">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -339,19 +339,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject-Merged/VR_Robot_Project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/EMAR/Desktop/UWRobotVRProject/VR_Platform/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -710,11 +710,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{268443AD-1896-31B7-CE2C-070DCEBCC507}</Project>
+      <Project>{F2EBC396-9A45-462C-41FF-6EDB4F8D853B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{85436265-4E32-74DA-436B-5978662152AE}</Project>
+      <Project>{D9B12A1F-CD9E-375F-867C-EF718616B8CA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

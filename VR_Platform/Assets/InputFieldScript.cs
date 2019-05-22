@@ -8,9 +8,15 @@ using UnityEditor;
 public class InputFieldScript : MonoBehaviour
 {
     public InputField operatorInput, participantInput;
-    public Button startSession, endSession;
+    public Button startSession, endSession, startPopUp, endPopUp;
     string operatorData;
     string participantData;
+
+    public void Start()
+    {
+        this.startPopUp.gameObject.SetActive(false);
+        this.endPopUp.gameObject.SetActive(false);
+    }
 
     public void Setget()
     {
@@ -34,7 +40,12 @@ public class InputFieldScript : MonoBehaviour
         Resources.Load(path);
         //AssetDatabase.Import(path);
         TextAsset asset = (TextAsset)Resources.Load("data.txt");
- 
+        
+    }
+
+    public void HideButton(Button buttonToHide)
+    {
+        buttonToHide.gameObject.SetActive(false);
     }
 
     public void OnClickCount(Button clickedButton)
